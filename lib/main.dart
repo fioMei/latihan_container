@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           color: Colors.red,
-          margin: EdgeInsets.all(5),
+          margin: EdgeInsets.fromLTRB(3, 20, 3, 0),
           padding: EdgeInsets.all(7),
           child: Container(
             color: Colors.green,
