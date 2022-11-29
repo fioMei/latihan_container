@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           color: Colors.red,
           margin: EdgeInsets.fromLTRB(3, 20, 3, 0),
-          padding: EdgeInsets.all(7),
+          padding: EdgeInsets.only(bottom: 30),
           child: Container(
             color: Colors.green,
           ),
