@@ -11,11 +11,16 @@ class MyApp extends StatelessWidget {
           title: Text("Latihan Container"),
         ),
         body: Container(
-          color: Colors.red,
-          margin: EdgeInsets.fromLTRB(3, 20, 3, 0),
-          padding: EdgeInsets.only(bottom: 30),
+          color: Colors.blueGrey,
+          margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+          padding: EdgeInsets.all(30),
           child: Container(
-            color: Colors.green,
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+                gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: <Color>[Colors.blue, Colors.cyan])),
           ),
         ),
       ),
